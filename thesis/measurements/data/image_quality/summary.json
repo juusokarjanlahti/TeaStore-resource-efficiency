@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-10-01T17:14:54.315778+00:00",
+  "sut": "localhost",
+  "png_port": 8082,
+  "jpeg_port": 8083,
+  "size": "400x310",
+  "products": 100,
+  "jpeg_quality": "0,8",
+  "ssim": {
+    "median": 0.978745,
+    "mean": 0.9785449,
+    "min": 0.96598,
+    "max": 0.98896,
+    "min_product": 71
+  },
+  "psnr_db": {
+    "median": 28.506500000000003,
+    "mean": 28.65867,
+    "min": 23.859,
+    "max": 34.003
+  },
+  "bytes": {
+    "png_total": 6017644,
+    "jpeg_total": 1428941,
+    "ratio": 4.211
+  },
+  "figures": {
+    "median_ssim_product": 47,
+    "lowest_ssim_product": 71
+  }
+}

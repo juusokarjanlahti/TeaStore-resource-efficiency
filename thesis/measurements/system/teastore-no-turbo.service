@@ -1,0 +1,26 @@
+# Keeps turbo boost off on the SUT so every run executes at the same maximum clock.
+#
+# With turbo on, a laptop's clock follows its temperature, which adds run-to-run noise to
+# exactly the energy difference being measured. The setting also does not survive a reboot
+# reliably on its own: firmware may start with turbo on or off depending on AC state at boot.
+# This unit sets it at boot and again after every resume from sleep.
+#
+# Install on the SUT (see SETUP.md, Part D):
+#   sudo cp thesis/measurements/system/teastore-no-turbo.service /etc/systemd/system/
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now teastore-no-turbo.service
+# Undo:
+#   sudo systemctl disable --now teastore-no-turbo.service
+#   echo 0 | sudo tee /sys/devices/system/cpu/intel_pstate/no_turbo
+
+[Unit]
+Description=Disable turbo boost for reproducible energy measurements
+ConditionPathExists=/sys/devices/system/cpu/intel_pstate/no_turbo
+After=suspend.target hibernate.target hybrid-sleep.target suspend-then-hibernate.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c 'echo 1 > /sys/devices/system/cpu/intel_pstate/no_turbo'
+
+[Install]
+WantedBy=multi-user.target suspend.target hibernate.target hybrid-sleep.target suspend-then-hibernate.target

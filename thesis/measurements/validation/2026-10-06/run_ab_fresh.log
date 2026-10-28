@@ -1,0 +1,517 @@
+ Container measurements-image-cache-off-1  Recreate
+ Container measurements-image-cache-on-1  Recreate
+ Container measurements-image-cache-off-1  Recreated
+ Container measurements-image-cache-on-1  Recreated
+ Container measurements-image-cache-on-1  Starting
+ Container measurements-image-cache-off-1  Starting
+ Container measurements-image-cache-off-1  Started
+ Container measurements-image-cache-on-1  Started
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_off r0] 120000 req  999.61 req/s  median 3.664 ms  hit rate None  misses 0  5.197 W  0.005199 J/req  0.003348 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_on r0] 120000 req  999.64 req/s  median 3.284 ms  hit rate 0.6371  misses 43544  4.902 W  0.004904 J/req  0.003397 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_off r0] 120000 req  999.62 req/s  median 3.616 ms  hit rate None  misses 0  5.06 W  0.005062 J/req  0.00351 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_on r0] 120000 req  999.64 req/s  median 3.26 ms  hit rate 0.6362  misses 43657  4.837 W  0.004838 J/req  0.003333 J/req above idle
+ Container measurements-image-cache-off-1  Recreate
+ Container measurements-image-cache-on-1  Recreate
+ Container measurements-image-cache-on-1  Recreated
+ Container measurements-image-cache-off-1  Recreated
+ Container measurements-image-cache-off-1  Starting
+ Container measurements-image-cache-on-1  Starting
+ Container measurements-image-cache-off-1  Started
+ Container measurements-image-cache-on-1  Started
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_on r0] 120000 req  999.64 req/s  median 3.421 ms  hit rate 0.6355  misses 43738  5.053 W  0.005054 J/req  0.003013 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_off r0] 120000 req  999.6 req/s  median 3.679 ms  hit rate None  misses 0  5.203 W  0.005205 J/req  0.003648 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_on r0] 120000 req  999.65 req/s  median 3.281 ms  hit rate 0.6362  misses 43657  4.983 W  0.004984 J/req  0.003484 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_off r0] 120000 req  999.66 req/s  median 3.62 ms  hit rate None  misses 0  5.106 W  0.005107 J/req  0.003628 J/req above idle
+ Container measurements-image-cache-on-1  Recreate
+ Container measurements-image-cache-off-1  Recreate
+ Container measurements-image-cache-off-1  Recreated
+ Container measurements-image-cache-on-1  Recreated
+ Container measurements-image-cache-off-1  Starting
+ Container measurements-image-cache-on-1  Starting
+ Container measurements-image-cache-on-1  Started
+ Container measurements-image-cache-off-1  Started
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_off r0] 120000 req  999.62 req/s  median 3.629 ms  hit rate None  misses 0  5.141 W  0.005143 J/req  0.003059 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_on r0] 120000 req  999.64 req/s  median 3.308 ms  hit rate 0.6373  misses 43522  4.934 W  0.004936 J/req  0.003359 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_off r0] 120000 req  999.63 req/s  median 3.634 ms  hit rate None  misses 0  5.075 W  0.005076 J/req  0.003541 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_on r0] 120000 req  999.64 req/s  median 3.261 ms  hit rate 0.6363  misses 43645  4.871 W  0.004872 J/req  0.003375 J/req above idle
+ Container measurements-image-cache-off-1  Recreate
+ Container measurements-image-cache-on-1  Recreate
+ Container measurements-image-cache-off-1  Recreated
+ Container measurements-image-cache-on-1  Recreated
+ Container measurements-image-cache-off-1  Starting
+ Container measurements-image-cache-on-1  Starting
+ Container measurements-image-cache-on-1  Started
+ Container measurements-image-cache-off-1  Started
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_on r0] 120000 req  999.62 req/s  median 3.507 ms  hit rate 0.6355  misses 43739  5.127 W  0.005129 J/req  0.003159 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_off r0] 120000 req  999.64 req/s  median 3.767 ms  hit rate None  misses 0  5.183 W  0.005185 J/req  0.003635 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_on r0] 120000 req  999.61 req/s  median 3.459 ms  hit rate 0.6372  misses 43534  5.006 W  0.005008 J/req  0.003458 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_off r0] 120000 req  999.61 req/s  median 3.679 ms  hit rate None  misses 0  5.109 W  0.005111 J/req  0.003608 J/req above idle
+ Container measurements-image-cache-off-1  Recreate
+ Container measurements-image-cache-on-1  Recreate
+ Container measurements-image-cache-off-1  Recreated
+ Container measurements-image-cache-on-1  Recreated
+ Container measurements-image-cache-off-1  Starting
+ Container measurements-image-cache-on-1  Starting
+ Container measurements-image-cache-on-1  Started
+ Container measurements-image-cache-off-1  Started
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_off r0] 120000 req  999.63 req/s  median 3.644 ms  hit rate None  misses 0  5.19 W  0.005192 J/req  0.00325 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_on r0] 120000 req  999.6 req/s  median 3.436 ms  hit rate 0.6371  misses 43551  5.162 W  0.005164 J/req  0.003619 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_off r0] 120000 req  999.63 req/s  median 3.599 ms  hit rate None  misses 0  5.028 W  0.00503 J/req  0.003536 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_on r0] 120000 req  999.63 req/s  median 3.518 ms  hit rate 0.6369  misses 43568  5.061 W  0.005063 J/req  0.003498 J/req above idle
+ Container measurements-image-cache-off-1  Recreate
+ Container measurements-image-cache-on-1  Recreate
+ Container measurements-image-cache-on-1  Recreated
+ Container measurements-image-cache-off-1  Recreated
+ Container measurements-image-cache-off-1  Starting
+ Container measurements-image-cache-on-1  Starting
+ Container measurements-image-cache-off-1  Started
+ Container measurements-image-cache-on-1  Started
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_on r0] 120000 req  999.64 req/s  median 3.335 ms  hit rate 0.6387  misses 43361  5.021 W  0.005023 J/req  0.003215 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_off r0] 120000 req  999.62 req/s  median 3.599 ms  hit rate None  misses 0  5.104 W  0.005106 J/req  0.003588 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_on r0] 120000 req  999.64 req/s  median 3.281 ms  hit rate 0.6381  misses 43427  4.927 W  0.004929 J/req  0.00342 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_off r0] 120000 req  999.63 req/s  median 3.597 ms  hit rate None  misses 0  4.998 W  0.005 J/req  0.003528 J/req above idle
+ Container measurements-image-cache-off-1  Recreate
+ Container measurements-image-cache-on-1  Recreate
+ Container measurements-image-cache-off-1  Recreated
+ Container measurements-image-cache-on-1  Recreated
+ Container measurements-image-cache-off-1  Starting
+ Container measurements-image-cache-on-1  Starting
+ Container measurements-image-cache-off-1  Started
+ Container measurements-image-cache-on-1  Started
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_off r0] 120000 req  999.62 req/s  median 3.609 ms  hit rate None  misses 0  5.053 W  0.005055 J/req  0.003149 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_on r0] 120000 req  999.63 req/s  median 3.459 ms  hit rate 0.6382  misses 43414  5.09 W  0.005092 J/req  0.003508 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_off r0] 120000 req  999.64 req/s  median 3.55 ms  hit rate None  misses 0  4.973 W  0.004975 J/req  0.003458 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_on r0] 120000 req  999.64 req/s  median 3.454 ms  hit rate 0.6374  misses 43511  5.012 W  0.005014 J/req  0.003533 J/req above idle
+ Container measurements-image-cache-on-1  Recreate
+ Container measurements-image-cache-off-1  Recreate
+ Container measurements-image-cache-off-1  Recreated
+ Container measurements-image-cache-on-1  Recreated
+ Container measurements-image-cache-on-1  Starting
+ Container measurements-image-cache-off-1  Starting
+ Container measurements-image-cache-on-1  Started
+ Container measurements-image-cache-off-1  Started
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_on r0] 120000 req  999.64 req/s  median 3.323 ms  hit rate 0.6372  misses 43532  5.113 W  0.005115 J/req  0.003232 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_off r0] 120000 req  999.6 req/s  median 3.605 ms  hit rate None  misses 0  4.97 W  0.004972 J/req  0.003431 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_on r0] 120000 req  999.65 req/s  median 3.301 ms  hit rate 0.6368  misses 43590  4.985 W  0.004987 J/req  0.003495 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_off r0] 120000 req  999.65 req/s  median 3.677 ms  hit rate None  misses 0  5.045 W  0.005047 J/req  0.00353 J/req above idle
+ Container measurements-image-cache-on-1  Recreate
+ Container measurements-image-cache-off-1  Recreate
+ Container measurements-image-cache-off-1  Recreated
+ Container measurements-image-cache-on-1  Recreated
+ Container measurements-image-cache-off-1  Starting
+ Container measurements-image-cache-on-1  Starting
+ Container measurements-image-cache-off-1  Started
+ Container measurements-image-cache-on-1  Started
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_off r0] 120000 req  999.63 req/s  median 3.68 ms  hit rate None  misses 0  5.267 W  0.005269 J/req  0.003191 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_on r0] 120000 req  999.63 req/s  median 3.452 ms  hit rate 0.6382  misses 43414  5.152 W  0.005154 J/req  0.003611 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_off r0] 120000 req  999.63 req/s  median 3.656 ms  hit rate None  misses 0  5.128 W  0.00513 J/req  0.00358 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_on r0] 120000 req  999.63 req/s  median 3.441 ms  hit rate 0.6381  misses 43426  5.04 W  0.005042 J/req  0.003566 J/req above idle
+ Container measurements-image-cache-off-1  Recreate
+ Container measurements-image-cache-on-1  Recreate
+ Container measurements-image-cache-on-1  Recreated
+ Container measurements-image-cache-off-1  Recreated
+ Container measurements-image-cache-on-1  Starting
+ Container measurements-image-cache-off-1  Starting
+ Container measurements-image-cache-on-1  Started
+ Container measurements-image-cache-off-1  Started
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_on r0] 120000 req  999.63 req/s  median 3.466 ms  hit rate 0.6382  misses 43421  5.055 W  0.005057 J/req  0.00322 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_off r0] 120000 req  999.63 req/s  median 3.638 ms  hit rate None  misses 0  5.128 W  0.00513 J/req  0.003563 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_on r0] 120000 req  999.6 req/s  median 3.403 ms  hit rate 0.6389  misses 43336  4.98 W  0.004982 J/req  0.003471 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_off r0] 120000 req  999.64 req/s  median 3.673 ms  hit rate None  misses 0  5.034 W  0.005036 J/req  0.003554 J/req above idle
+ Container measurements-image-cache-off-1  Recreate
+ Container measurements-image-cache-on-1  Recreate
+ Container measurements-image-cache-on-1  Recreated
+ Container measurements-image-cache-off-1  Recreated
+ Container measurements-image-cache-on-1  Starting
+ Container measurements-image-cache-off-1  Starting
+ Container measurements-image-cache-on-1  Started
+ Container measurements-image-cache-off-1  Started
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_off r0] 120000 req  999.64 req/s  median 3.647 ms  hit rate None  misses 0  5.237 W  0.005239 J/req  0.003172 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_on r0] 120000 req  999.63 req/s  median 3.429 ms  hit rate 0.6353  misses 43766  5.074 W  0.005076 J/req  0.003456 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_off r0] 120000 req  999.64 req/s  median 3.673 ms  hit rate None  misses 0  5.101 W  0.005103 J/req  0.00359 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_on r0] 120000 req  999.6 req/s  median 3.339 ms  hit rate 0.6354  misses 43747  5.012 W  0.005014 J/req  0.003475 J/req above idle
+ Container measurements-image-cache-off-1  Recreate
+ Container measurements-image-cache-on-1  Recreate
+ Container measurements-image-cache-on-1  Recreated
+ Container measurements-image-cache-off-1  Recreated
+ Container measurements-image-cache-on-1  Starting
+ Container measurements-image-cache-off-1  Starting
+ Container measurements-image-cache-off-1  Started
+ Container measurements-image-cache-on-1  Started
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_on r0] 120000 req  999.61 req/s  median 3.464 ms  hit rate 0.6374  misses 43512  5.172 W  0.005174 J/req  0.00317 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_off r0] 120000 req  999.64 req/s  median 3.637 ms  hit rate None  misses 0  5.115 W  0.005117 J/req  0.003568 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_on r0] 120000 req  999.64 req/s  median 3.484 ms  hit rate 0.6376  misses 43487  5.05 W  0.005051 J/req  0.003554 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_off r0] 120000 req  999.64 req/s  median 3.645 ms  hit rate None  misses 0  5.022 W  0.005023 J/req  0.003536 J/req above idle
+ Container measurements-image-cache-on-1  Recreate
+ Container measurements-image-cache-off-1  Recreate
+ Container measurements-image-cache-on-1  Recreated
+ Container measurements-image-cache-off-1  Recreated
+ Container measurements-image-cache-off-1  Starting
+ Container measurements-image-cache-on-1  Starting
+ Container measurements-image-cache-on-1  Started
+ Container measurements-image-cache-off-1  Started
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_off r0] 120000 req  999.62 req/s  median 3.629 ms  hit rate None  misses 0  5.169 W  0.005171 J/req  0.003243 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_on r0] 120000 req  999.62 req/s  median 3.485 ms  hit rate 0.635  misses 43799  5.117 W  0.005119 J/req  0.003575 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_off r0] 120000 req  999.64 req/s  median 3.553 ms  hit rate None  misses 0  5.023 W  0.005025 J/req  0.003537 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_on r0] 120000 req  999.65 req/s  median 3.418 ms  hit rate 0.6361  misses 43670  5.026 W  0.005028 J/req  0.003526 J/req above idle
+ Container measurements-image-cache-on-1  Recreate
+ Container measurements-image-cache-off-1  Recreate
+ Container measurements-image-cache-on-1  Recreated
+ Container measurements-image-cache-off-1  Recreated
+ Container measurements-image-cache-off-1  Starting
+ Container measurements-image-cache-on-1  Starting
+ Container measurements-image-cache-off-1  Started
+ Container measurements-image-cache-on-1  Started
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_on r0] 120000 req  999.63 req/s  median 3.498 ms  hit rate 0.637  misses 43556  5.118 W  0.00512 J/req  0.00319 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_off r0] 120000 req  999.61 req/s  median 3.604 ms  hit rate None  misses 0  5.014 W  0.005016 J/req  0.003447 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_on r0] 120000 req  999.62 req/s  median 3.486 ms  hit rate 0.6371  misses 43550  4.971 W  0.004973 J/req  0.003465 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_off r0] 120000 req  999.63 req/s  median 3.513 ms  hit rate None  misses 0  4.959 W  0.00496 J/req  0.003496 J/req above idle
+ Container measurements-image-cache-off-1  Recreate
+ Container measurements-image-cache-on-1  Recreate
+ Container measurements-image-cache-on-1  Recreated
+ Container measurements-image-cache-off-1  Recreated
+ Container measurements-image-cache-off-1  Starting
+ Container measurements-image-cache-on-1  Starting
+ Container measurements-image-cache-off-1  Started
+ Container measurements-image-cache-on-1  Started
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_off r0] 120000 req  999.62 req/s  median 3.665 ms  hit rate None  misses 0  5.247 W  0.005249 J/req  0.00331 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_on r0] 120000 req  999.62 req/s  median 3.348 ms  hit rate 0.6355  misses 43741  5.106 W  0.005108 J/req  0.003568 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_off r0] 120000 req  999.64 req/s  median 3.722 ms  hit rate None  misses 0  5.112 W  0.005114 J/req  0.003612 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_on r0] 120000 req  999.64 req/s  median 3.38 ms  hit rate 0.6364  misses 43634  4.96 W  0.004962 J/req  0.003461 J/req above idle
+ Container measurements-image-cache-off-1  Recreate
+ Container measurements-image-cache-on-1  Recreate
+ Container measurements-image-cache-off-1  Recreated
+ Container measurements-image-cache-on-1  Recreated
+ Container measurements-image-cache-off-1  Starting
+ Container measurements-image-cache-on-1  Starting
+ Container measurements-image-cache-off-1  Started
+ Container measurements-image-cache-on-1  Started
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_on r0] 120000 req  999.63 req/s  median 3.393 ms  hit rate 0.6359  misses 43696  5.07 W  0.005072 J/req  0.003008 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_off r0] 120000 req  999.63 req/s  median 3.745 ms  hit rate None  misses 0  5.131 W  0.005133 J/req  0.003597 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_on r0] 120000 req  999.63 req/s  median 3.306 ms  hit rate 0.6341  misses 43913  4.934 W  0.004936 J/req  0.003425 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_off r0] 120000 req  999.64 req/s  median 3.595 ms  hit rate None  misses 0  5.054 W  0.005056 J/req  0.003563 J/req above idle
+ Container measurements-image-cache-on-1  Recreate
+ Container measurements-image-cache-off-1  Recreate
+ Container measurements-image-cache-on-1  Recreated
+ Container measurements-image-cache-off-1  Recreated
+ Container measurements-image-cache-off-1  Starting
+ Container measurements-image-cache-on-1  Starting
+ Container measurements-image-cache-off-1  Started
+ Container measurements-image-cache-on-1  Started
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_off r0] 120000 req  999.63 req/s  median 3.713 ms  hit rate None  misses 0  5.212 W  0.005214 J/req  0.003201 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_on r0] 120000 req  999.59 req/s  median 3.494 ms  hit rate 0.636  misses 43675  5.057 W  0.005059 J/req  0.003549 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_off r0] 120000 req  999.63 req/s  median 3.653 ms  hit rate None  misses 0  5.108 W  0.00511 J/req  0.003609 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_on r0] 120000 req  999.65 req/s  median 3.472 ms  hit rate 0.6353  misses 43759  4.961 W  0.004963 J/req  0.003475 J/req above idle
+ Container measurements-image-cache-off-1  Recreate
+ Container measurements-image-cache-on-1  Recreate
+ Container measurements-image-cache-on-1  Recreated
+ Container measurements-image-cache-off-1  Recreated
+ Container measurements-image-cache-off-1  Starting
+ Container measurements-image-cache-on-1  Starting
+ Container measurements-image-cache-on-1  Started
+ Container measurements-image-cache-off-1  Started
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_on r0] 120000 req  999.62 req/s  median 3.447 ms  hit rate 0.6378  misses 43464  5.133 W  0.005135 J/req  0.003115 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_off r0] 120000 req  999.61 req/s  median 3.599 ms  hit rate None  misses 0  5.027 W  0.005029 J/req  0.003477 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_on r0] 120000 req  999.64 req/s  median 3.449 ms  hit rate 0.6377  misses 43478  4.967 W  0.004968 J/req  0.003465 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_off r0] 120000 req  999.61 req/s  median 3.536 ms  hit rate None  misses 0  4.951 W  0.004953 J/req  0.003465 J/req above idle
+ Container measurements-image-cache-off-1  Recreate
+ Container measurements-image-cache-on-1  Recreate
+ Container measurements-image-cache-off-1  Recreated
+ Container measurements-image-cache-on-1  Recreated
+ Container measurements-image-cache-off-1  Starting
+ Container measurements-image-cache-on-1  Starting
+ Container measurements-image-cache-off-1  Started
+ Container measurements-image-cache-on-1  Started
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_off r0] 120000 req  999.61 req/s  median 3.737 ms  hit rate None  misses 0  5.182 W  0.005184 J/req  0.00333 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_on r0] 120000 req  999.61 req/s  median 3.493 ms  hit rate 0.637  misses 43559  5.042 W  0.005044 J/req  0.003503 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_off r0] 120000 req  999.64 req/s  median 3.577 ms  hit rate None  misses 0  5.041 W  0.005043 J/req  0.003551 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_on r0] 120000 req  999.64 req/s  median 3.355 ms  hit rate 0.6378  misses 43469  4.97 W  0.004972 J/req  0.003477 J/req above idle
+ Container measurements-image-cache-off-1  Recreate
+ Container measurements-image-cache-on-1  Recreate
+ Container measurements-image-cache-on-1  Recreated
+ Container measurements-image-cache-off-1  Recreated
+ Container measurements-image-cache-off-1  Starting
+ Container measurements-image-cache-on-1  Starting
+ Container measurements-image-cache-off-1  Started
+ Container measurements-image-cache-on-1  Started
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_on r0] 120000 req  999.62 req/s  median 3.522 ms  hit rate 0.6373  misses 43527  5.075 W  0.005077 J/req  0.003063 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[settle_cache_off r0] 120000 req  999.63 req/s  median 3.616 ms  hit rate None  misses 0  4.989 W  0.004991 J/req  0.003462 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_on r0] 120000 req  999.65 req/s  median 3.351 ms  hit rate 0.637  misses 43559  4.989 W  0.00499 J/req  0.003493 J/req above idle
+RAPL zones (rapl-powercap-remote): package-0, core, uncore, dram, psys
+load profile: zipf alpha=0.8, catalog=100, top 20% draws 57.9% of requests
+load model: open-loop at 1000 req/s, 3 process(es) x 8 threads
+[cache_off r0] 120000 req  999.63 req/s  median 3.539 ms  hit rate None  misses 0  4.924 W  0.004926 J/req  0.003449 J/req above idle
+CPU package temperature: 37-39 C at window start, 38-40 C at window end
+
+Metric                                      cache_off                  cache_on
+-------------------------------------------------------------------------------
+Repetitions                                        20                        20
+Throughput [req/s]                1e+03 (1e+03-1e+03)       1e+03 (1e+03-1e+03)
+Latency median [ms]                  3.62 (3.51-3.72)          3.39 (3.26-3.52)
+Latency p95 [ms]                     4.48 (4.36-4.79)          4.31 (4.08-4.48)
+Latency p99 [ms]                     7.22 (6.88-7.69)          6.85 (6.26-7.08)
+Cache hit rate                                      -       0.637 (0.634-0.639)
+Misses (renders)                              0 (0-0)4.36e+04 (4.33e+04-4.39e+04)
+Evictions                                     0 (0-0)4.32e+04 (4.3e+04-4.36e+04)
+Package power [W]                    5.04 (4.92-5.13)          4.98 (4.84-5.06)
+Idle package power [W]               1.49 (1.46-1.55)           1.5 (1.48-1.56)
+Energy [J/req]              0.00505 (0.00493-0.00513) 0.00498 (0.00484-0.00506)
+Energy above idle [J/req]   0.00354 (0.00345-0.00363) 0.00347 (0.00333-0.00357)
+Response size [KiB]                  76.3 (76.3-76.4)          76.3 (76.3-76.4)
+Network [Mbit/s]                        625 (625-625)             625 (625-625)
+Energy CV [%]                                     1.2                       1.1
+Energy above idle CV [%]                          1.5                       1.6
+
+Cells show median (min-max) across repetitions; CV is stdev / mean.
+
+Paired differences, cache_on - cache_off, 20 pairs by seed:
+  Energy [J/req]
+    median -7.1e-05 (-0.000224 to +6.4e-05), -1.41 % (-4.43 to +1.30 %), n = 20
+    Wilcoxon signed-rank, exact two-sided: p = 0.003565
+    mean -6.55e-05, 95 % CI -0.000104 to -2.67e-05 (-1.30 %, CI -2.07 to -0.53 % of the baseline mean); paired t-test p = 0.002226
+  Energy above idle [J/req]
+    median -7.85e-05 (-0.000177 to +7.5e-05), -2.21 % (-5.04 to +2.17 %), n = 20
+    Wilcoxon signed-rank, exact two-sided: p = 0.001171
+    mean -7.16e-05, 95 % CI -0.000107 to -3.62e-05 (-2.02 %, CI -3.02 to -1.02 % of the baseline mean); paired t-test p = 0.0004453
+  cache_off: 20 JVM instance(s) over 20 runs
+  cache_on: 20 JVM instance(s) over 20 runs
+  The interval covers the variation between pairs. If each configuration ran on
+  one JVM instance, that is run-to-run noise only, not the difference between
+  instances (TESTIPENKKI.md, section 5).

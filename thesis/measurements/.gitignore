@@ -1,0 +1,4 @@
+# Dry-run output. Energy values in these runs are fabricated to exercise the
+# pipeline and must never be mistaken for measurements, so they stay out of the repo.
+data/mock/
+__pycache__/

@@ -1,0 +1,6 @@
+measurements-image-cache-off-1	descartesresearch/teastore-image	Up 5 minutes
+measurements-image-cache-on-1	descartesresearch/teastore-image	Up 5 minutes
+measurements-db-1	descartesresearch/teastore-db	Up 22 hours
+measurements-registry-1	descartesresearch/teastore-registry	Up 22 hours
+measurements-persistence-1	descartesresearch/teastore-persistence	Up 22 hours
+measurements-image-jpeg-1	descartesresearch/teastore-image	Up 22 hours

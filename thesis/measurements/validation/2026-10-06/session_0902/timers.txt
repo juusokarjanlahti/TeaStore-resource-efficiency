@@ -1,0 +1,21 @@
+NEXT                             LEFT LAST                               PASSED UNIT                           ACTIVATES
+Tue 2026-10-06 12:10:00 EEST     7min Tue 2026-10-06 12:00:03 EEST  2min 6s ago sysstat-collect.timer          sysstat-collect.service
+Tue 2026-10-06 12:33:01 EEST    30min Tue 2026-10-06 11:35:26 EEST    26min ago anacron.timer                  anacron.service
+Tue 2026-10-06 16:24:02 EEST 4h 21min Tue 2026-10-06 10:20:35 EEST 1h 41min ago ua-timer.timer                 ua-timer.service
+Wed 2026-10-07 00:00:00 EEST      11h Tue 2026-10-06 10:08:29 EEST 1h 53min ago dpkg-db-backup.timer           dpkg-db-backup.service
+Wed 2026-10-07 00:00:00 EEST      11h Tue 2026-10-06 10:08:29 EEST 1h 53min ago logrotate.timer                logrotate.service
+Wed 2026-10-07 00:07:00 EEST      12h Tue 2026-10-06 10:08:29 EEST 1h 53min ago sysstat-summary.timer          sysstat-summary.service
+Wed 2026-10-07 02:11:12 EEST      14h Thu 2026-10-01 17:03:18 EEST            - update-notifier-motd.timer     update-notifier-motd.service
+Wed 2026-10-07 10:01:32 EEST      21h Mon 2026-10-05 13:53:37 EEST  2h 0min ago update-notifier-download.timer update-notifier-download.service
+Wed 2026-10-07 10:11:29 EEST      22h Tue 2026-10-06 10:11:31 EEST 1h 50min ago systemd-tmpfiles-clean.timer   systemd-tmpfiles-clean.service
+Sun 2026-10-11 03:10:28 EEST   4 days Mon 2026-10-05 01:22:38 EEST            - e2scrub_all.timer              e2scrub_all.service
+Mon 2026-10-12 01:21:28 EEST   5 days Mon 2026-10-05 01:28:20 EEST            - fstrim.timer                   fstrim.service
+-                                   - -                                       - apport-autoreport.timer        apport-autoreport.service
+-                                   - Tue 2026-10-06 10:23:35 EEST 1h 38min ago apt-daily-upgrade.timer        apt-daily-upgrade.service
+-                                   - Mon 2026-09-28 20:02:59 EEST            - apt-daily.timer                apt-daily.service
+-                                   - Tue 2026-10-06 11:18:06 EEST    44min ago fwupd-refresh.timer            fwupd-refresh.service
+-                                   - Thu 2026-10-01 08:47:41 EEST            - man-db.timer                   man-db.service
+-                                   - Tue 2026-09-29 15:44:58 EEST            - motd-news.timer                motd-news.service
+-                                   - -                                       - snapd.snap-repair.timer        snapd.snap-repair.service
+
+18 timers listed.

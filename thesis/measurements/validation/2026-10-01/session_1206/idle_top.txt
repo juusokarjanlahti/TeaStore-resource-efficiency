@@ -1,0 +1,20 @@
+top - 15:06:23 up  6:23,  2 users,  load average: 0.15, 0.22, 0.30
+Tasks: 233 total,   1 running, 232 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.3 sy,  0.0 ni, 98.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  19778.0 total,  10445.6 free,   4141.6 used,   5547.4 buff/cache     
+MiB Swap:   3696.0 total,   3696.0 free,      0.0 used.  15636.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   3388 root      20   0 6994480 804508  35620 S   2.2   4.0  28:34.18 java
+   3409 root      20   0 6979724 765664  35784 S   1.9   3.8  49:58.56 java
+ 119338 root      20   0   17300   7976   7072 S   1.1   0.0   0:00.26 systemd+
+   3389 root      20   0 6983060 777020  35640 S   1.0   3.8 124:59.54 java
+   3391 root      20   0 6276672 595252  33052 S   0.7   2.9   5:29.00 java
+   3390 root      20   0 5584884 365016  31680 S   0.3   1.8   2:11.33 java
+    894 systemd+  20   0   91068   8024   7040 S   0.1   0.0   0:00.51 systemd+
+   2512 root      20   0 2798872  94744  59520 S   0.1   0.5   0:26.85 dockerd
+   2847 root      20   0 1233616  10868   7260 S   0.1   0.1   0:01.85 contain+
+   2960 dnsmasq   20   0 2056256  95692  21428 S   0.1   0.5   0:22.79 mysqld
+ 118601 root      20   0       0      0      0 I   0.1   0.0   0:00.03 kworker+
+ 119335 root      20   0   17048   5844   3692 R   0.1   0.0   0:00.03 top
+      1 root      20   0   25152  16024   9444 S   0.0   0.1   0:26.88 systemd

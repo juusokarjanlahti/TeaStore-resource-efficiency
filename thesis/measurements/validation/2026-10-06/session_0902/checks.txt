@@ -1,0 +1,26 @@
+# 2026-10-06T09:02:05+00:00 Lenovo ideapad 320-15IKB 7.0.0-34-generic
+OK    AC online: 1
+OK    battery status: Full
+OK    charge limit (conservation_mode): 1
+OK    turbo disabled (no_turbo): 1
+OK    CPU governors: performance
+OK    Wi-Fi: disabled
+OK    desktop session running: no
+OK    stack containers up: 6
+OK    image generation finished (8081 8082 8083): true true true
+OK    rapl_server.py answering on http://10.10.10.1:9100/energy: yes
+OK    sleep and lid blocked (systemd-inhibit): yes
+STOP  unattended-upgrades.service
+STOP  snapd.service
+STOP  snapd.socket
+STOP  fwupd.service
+STOP  fwupd-refresh.timer
+STOP  apt-daily.timer
+STOP  apt-daily-upgrade.timer
+STOP  motd-news.timer
+STOP  man-db.timer
+STOP  cups.service
+STOP  bluetooth.service
+busiest over 10 s idle: java 2.5%, java 1.9%, java 1.8%, java 1.7%, systemd+ 1.1%, java 0.3%, dbus-da+ 0.1%, upowerd 0.1%, mysqld 0.1%, python3 0.1%, kworker+ 0.1%, contain+ 0.1%, top 0.1%, 
+settled after 600 s at 32.0 C; idle package power (median, last 5 min): 1.499 W
+Write this idle power and the room temperature into data/SESSIOLOKI.md.

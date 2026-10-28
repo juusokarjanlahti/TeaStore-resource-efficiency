@@ -1,0 +1,130 @@
+{
+  "label": "cache_off",
+  "repetition": 0,
+  "timestamp": "2026-10-06T13:30:23.376380+00:00",
+  "mock": false,
+  "energy_source": "rapl-powercap-remote",
+  "target": "http://10.10.10.1:8082/tools.descartes.teastore.image",
+  "commit": "aa9aa6e9ac6378db28662dbccbda992a68941d82",
+  "commit_dirty": false,
+  "modified_files": [],
+  "host": {
+    "model": "IdeaPad 5 Pro 16ARH7",
+    "system": "Linux",
+    "machine": "x86_64",
+    "cpus": 16,
+    "cpu_model": "AMD Ryzen 7 6800HS Creator Edition"
+  },
+  "sut_host": {
+    "model": "Lenovo ideapad 320-15IKB",
+    "system": "Linux",
+    "machine": "x86_64",
+    "cpus": 8,
+    "cpu_model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz"
+  },
+  "sut_state": {
+    "window_start": {
+      "power": {
+        "no_turbo": "1",
+        "governor": "performance",
+        "energy_performance_preference": "performance",
+        "ac_online": true
+      },
+      "temperatures_c": {
+        "pch_skylake": 37.0,
+        "x86_pkg_temp": 38.0
+      },
+      "battery": {
+        "capacity_percent": 100,
+        "status": "Full"
+      }
+    },
+    "window_end": {
+      "power": {
+        "no_turbo": "1",
+        "governor": "performance",
+        "energy_performance_preference": "performance",
+        "ac_online": true
+      },
+      "temperatures_c": {
+        "pch_skylake": 38.5,
+        "x86_pkg_temp": 39.0
+      },
+      "battery": {
+        "capacity_percent": 100,
+        "status": "Full"
+      }
+    }
+  },
+  "service_container": {
+    "name": "measurements-image-cache-off-1",
+    "id": "45853ca65f1a",
+    "started_at": "2026-10-06T13:18:28.61115259Z",
+    "image": "descartesresearch/teastore-image",
+    "image_id": "sha256:69fee25c18d1f64ea12704cf0ab535fa2fe1f904810a6323409df3c8fcddb6c4",
+    "host_ports": [
+      8082
+    ],
+    "catalina_opts": "-Xmx1g -Dimage.renderedCache.enabled=false"
+  },
+  "config": {
+    "duration_s": 120.0,
+    "warmup_s": 30.0,
+    "concurrency": 8,
+    "processes": 3,
+    "load_model": "open-loop",
+    "target_rps": 1000.0,
+    "idle_s": 20.0,
+    "catalog_size": 100,
+    "first_product_id": 7,
+    "image_size": "400x310",
+    "seed": 15
+  },
+  "load_profile": {
+    "distribution": "zipf",
+    "alpha": 0.8,
+    "reference": "Breslau et al. 1999, alpha 0.64-0.83 in web proxy traces",
+    "top20_share": 0.5791
+  },
+  "results": {
+    "requests": 120000,
+    "errors": 0,
+    "wall_seconds": 120.043,
+    "throughput_rps": 999.64,
+    "response_bytes": {
+      "total": 9378058537,
+      "mean": 78150.5
+    },
+    "network_mbit_s": 624.98,
+    "latency_ms": {
+      "median": 3.722,
+      "p95": 4.787,
+      "p99": 7.49
+    },
+    "cache": {
+      "hits": 0,
+      "misses": 0,
+      "evictions": 0,
+      "entries": 0,
+      "bytes": 0,
+      "max_bytes": 3145728,
+      "hit_rate": null
+    },
+    "send_lag_ms": {
+      "median": 0.064,
+      "p95": 0.105,
+      "max": 15.301
+    },
+    "energy_joules": {
+      "package-0": 613.629,
+      "core": 428.343,
+      "uncore": 0.0,
+      "dram": 123.396,
+      "psys": 429.938
+    },
+    "package_watts": 5.112,
+    "idle_package_watts": 1.501,
+    "joules_per_request": 0.005114,
+    "joules_per_request_above_idle": 0.003612
+  }
+}

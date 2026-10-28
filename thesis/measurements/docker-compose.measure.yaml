@@ -1,0 +1,83 @@
+# Minimal TeaStore stack for the rendered-image cache measurement, run on the SUT.
+#
+# Only what the image provider needs: it pulls the product catalogue from persistence
+# (found through the registry) once at startup and generates its images, then serves
+# requests on its own. WebUI, auth and recommender are left out; they would idle in the
+# background and add energy that has nothing to do with the comparison.
+#
+# Three image containers run from the same image and differ only in their JVM options, so
+# every A/B pair shares one binary and the load driver can interleave runs without
+# restarts. The ones not under load idle, and that idle cost is present in every
+# configuration. Image generation is seeded, so all hold the same images.
+#
+#   cache on        -> http://<sut>:8081/tools.descartes.teastore.image
+#   baseline        -> http://<sut>:8082/tools.descartes.teastore.image  (PNG, cache off)
+#   JPEG, cache off -> http://<sut>:8083/tools.descartes.teastore.image
+#
+# The cache comparison is 8082 vs 8081 and the image format comparison 8082 vs 8083: two
+# separate patterns against one baseline. The JPEG container keeps the rendered cache off
+# so the format's effect is not mixed with more images fitting in the cache. TeaStore's own
+# storage-layer cache is on in all three, as it is in TeaStore itself.
+#
+# The images must be the ones built locally from this branch (tools/build_docker.sh):
+# the Docker Hub images of the same name have no rendered-image cache, which would make
+# both sides the baseline. pull_policy: never makes a missing local build fail loudly.
+#
+# The cache flag goes in CATALINA_OPTS because the base image's start.sh overwrites
+# JAVA_OPTS. Heaps are fixed explicitly so they do not depend on installed RAM.
+#
+# The cache budget defaults to TeaStore's 3 MiB. The budget sweep (scripts/run_sweep.ps1)
+# recreates only the cache-on container with another value:
+#   RENDERED_CACHE_BYTES=8388608 docker compose -f thesis/measurements/docker-compose.measure.yaml \
+#       up -d --force-recreate image-cache-on
+# Plain `up -d` without the variable puts it back to the default.
+
+x-teastore: &teastore
+  pull_policy: never
+  restart: unless-stopped
+
+services:
+  db:
+    <<: *teastore
+    image: descartesresearch/teastore-db
+  registry:
+    <<: *teastore
+    image: descartesresearch/teastore-registry
+    environment:
+      CATALINA_OPTS: "-Xmx256m"
+  persistence:
+    <<: *teastore
+    image: descartesresearch/teastore-persistence
+    environment:
+      HOST_NAME: "persistence"
+      REGISTRY_HOST: "registry"
+      DB_HOST: "db"
+      DB_PORT: "3306"
+      CATALINA_OPTS: "-Xmx512m"
+  image-cache-on:
+    <<: *teastore
+    image: descartesresearch/teastore-image
+    ports:
+      - "8081:8080"
+    environment:
+      HOST_NAME: "image-cache-on"
+      REGISTRY_HOST: "registry"
+      CATALINA_OPTS: "-Xmx1g -Dimage.renderedCache.enabled=true -Dimage.renderedCache.maxBytes=${RENDERED_CACHE_BYTES:-3145728}"
+  image-cache-off:
+    <<: *teastore
+    image: descartesresearch/teastore-image
+    ports:
+      - "8082:8080"
+    environment:
+      HOST_NAME: "image-cache-off"
+      REGISTRY_HOST: "registry"
+      CATALINA_OPTS: "-Xmx1g -Dimage.renderedCache.enabled=false"
+  image-jpeg:
+    <<: *teastore
+    image: descartesresearch/teastore-image
+    ports:
+      - "8083:8080"
+    environment:
+      HOST_NAME: "image-jpeg"
+      REGISTRY_HOST: "registry"
+      CATALINA_OPTS: "-Xmx1g -Dimage.renderedCache.enabled=false -Dimage.productFormat=jpeg -Dimage.jpegQuality=0.8"

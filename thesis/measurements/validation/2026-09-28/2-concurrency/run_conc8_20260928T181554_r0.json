@@ -1,0 +1,63 @@
+{
+  "label": "conc8",
+  "repetition": 0,
+  "timestamp": "2026-09-28T18:15:54.449637+00:00",
+  "mock": false,
+  "energy_source": "rapl-powercap-remote",
+  "target": "http://10.10.10.1:8082/tools.descartes.teastore.image",
+  "commit": "0f64467daeda31d376c4d5a5c6172f7990ef3e84",
+  "host": {
+    "model": null,
+    "system": "Windows",
+    "machine": "AMD64",
+    "cpus": 12
+  },
+  "sut_host": {
+    "model": "Lenovo ideapad 320-15IKB",
+    "system": "Linux",
+    "machine": "x86_64",
+    "cpus": 8,
+    "cpu_model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz"
+  },
+  "config": {
+    "duration_s": 30.0,
+    "warmup_s": 10.0,
+    "concurrency": 8,
+    "catalog_size": 100,
+    "first_product_id": 7,
+    "image_size": "400x310",
+    "seed": 1
+  },
+  "load_profile": {
+    "distribution": "zipf",
+    "alpha": 0.8,
+    "reference": "Breslau et al. 1999, alpha 0.64-0.83 in web proxy traces",
+    "top20_share": 0.5791
+  },
+  "results": {
+    "requests": 30916,
+    "errors": 0,
+    "wall_seconds": 30.017,
+    "throughput_rps": 1029.95,
+    "latency_ms": {
+      "median": 7.253,
+      "p95": 11.019,
+      "p99": 20.795
+    },
+    "cache": {
+      "hits": 0,
+      "misses": 0,
+      "evictions": 0,
+      "entries": 0,
+      "hit_rate": null
+    },
+    "energy_joules": {
+      "package-0": 164.747,
+      "core": 113.882,
+      "uncore": 2.954,
+      "dram": 36.881,
+      "psys": 124.994
+    },
+    "joules_per_request": 0.005329
+  }
+}

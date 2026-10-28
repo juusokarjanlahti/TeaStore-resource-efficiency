@@ -1,0 +1,39 @@
+  UNIT                                                  LOAD   ACTIVE SUB     DESCRIPTION
+  accounts-daemon.service                               loaded active running Accounts Service
+  apache2.service                                       loaded active running The Apache HTTP Server
+  avahi-daemon.service                                  loaded active running Avahi mDNS/DNS-SD Stack
+  colord.service                                        loaded active running Manage, Install and Generate Color Profiles
+  containerd.service                                    loaded active running containerd container runtime
+  cron.service                                          loaded active running Regular background program processing daemon
+  dbus.service                                          loaded active running D-Bus System Message Bus
+  docker.service                                        loaded active running Docker Application Container Engine
+  getty@tty3.service                                    loaded active running Getty on tty3
+  getty@tty4.service                                    loaded active running Getty on tty4
+  gnome-remote-desktop.service                          loaded active running GNOME Remote Desktop
+  kerneloops.service                                    loaded active running Tool to automatically collect and submit kernel crash signatures
+  ModemManager.service                                  loaded active running Modem Manager
+  NetworkManager.service                                loaded active running Network Manager
+  polkit.service                                        loaded active running Authorization Manager
+  power-profiles-daemon.service                         loaded active running Power Profiles daemon
+  rsyslog.service                                       loaded active running System Logging Service
+  rtkit-daemon.service                                  loaded active running RealtimeKit Scheduling Policy Service
+  snap.canonical-livepatch.canonical-livepatchd.service loaded active running Service for snap application canonical-livepatch.canonical-livepatchd
+  ssh.service                                           loaded active running OpenBSD Secure Shell server
+  switcheroo-control.service                            loaded active running Switcheroo Control Proxy service
+  systemd-journald.service                              loaded active running Journal Service
+  systemd-logind.service                                loaded active running User Login Management
+  systemd-oomd.service                                  loaded active running Userspace Out-Of-Memory (OOM) Killer
+  systemd-resolved.service                              loaded active running Network Name Resolution
+  systemd-timesyncd.service                             loaded active running Network Time Synchronization
+  systemd-udevd.service                                 loaded active running Rule-based Manager for Device Events and Files
+  thermald.service                                      loaded active running Thermal Daemon Service
+  udisks2.service                                       loaded active running Disk Manager
+  upower.service                                        loaded active running Daemon for power management
+  user@1000.service                                     loaded active running User Manager for UID 1000
+  wpa_supplicant.service                                loaded active running WPA supplicant
+
+Legend: LOAD   → Reflects whether the unit definition was properly loaded.
+        ACTIVE → The high-level unit activation state, i.e. generalization of SUB.
+        SUB    → The low-level unit activation state, values depend on unit type.
+
+32 loaded units listed.
